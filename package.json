@@ -1,7 +1,7 @@
 {
   "name": "getdiscorddevbadge",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Easily and securely obtain the Active Developer badge for your Discord profile!",
   "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
