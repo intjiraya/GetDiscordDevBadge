@@ -19,15 +19,15 @@ async function askQuestion(query) {
 async function pauseOnError(message) {
     console.error(`[ERROR] ${message}`);
     console.log("[INFO] Press Enter to exit...");
-    await askQuestion(""); // Ожидает нажатия Enter перед завершением
+    await askQuestion("");
     process.exit(1);
 }
 
 async function main() {
     console.log("[INFO] Starting bot setup...");
 
-    const token = (await askQuestion("Enter your bot token: ")).trim();
-    const guildId = (await askQuestion("Enter your guild ID: ")).trim();
+    const token = await askQuestion("Enter your bot token: ");
+    const guildId = await askQuestion("Enter your guild ID: ");
 
     if (!token || !guildId) {
         await pauseOnError("Bot token and Guild ID are required.");
