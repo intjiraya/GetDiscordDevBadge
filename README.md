@@ -79,6 +79,7 @@ Easily and securely obtain the **Active Developer Badge** for your Discord profi
 1. Once the bot is running, go to any text channel in your server.
 2. Type the command `/hello`.
 3. The bot will respond with a message, and you will qualify for the **Active Developer Badge**.
+4. After running the command, go to https://discord.com/developers/active-developer, select the server where the command was executed, and choose the bot associated with the command.
 
 ---
 

@@ -32,6 +32,5 @@
 *.out
 *.app
 
-# CLion
 .idea/
-
+build/
